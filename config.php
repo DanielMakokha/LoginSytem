@@ -4,8 +4,9 @@ $conn = mysqli_connect("localhost","root","","dandb") or die("Database Connectio
 echo "Database Connection Succesfull";
 ?>
 
-<?php
 
+<?php
+/*
 // Define database credentials
 $db_host = "localhost";
 $db_user = "database_user";
@@ -23,5 +24,5 @@ echo "Connected successfully";
 
 // Close the connection
 mysqli_close($conn);
-
+*/
 ?>
